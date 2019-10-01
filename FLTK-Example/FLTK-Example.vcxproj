@@ -93,7 +93,7 @@
       <ConformanceMode>false</ConformanceMode>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\vendor\fltk\build;..\vendor\fltk\fltk-1.3.5;..\vendor\fltk\fltk-1.3.5\zlib;..\vendor\fltk\fltk-1.3.5\jpeg;..\vendor\fltk\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor\fltk\build\include;..\vendor\freeglut\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_MBCS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ForcedIncludeFiles>Windows.h</ForcedIncludeFiles>
     </ClCompile>
@@ -111,7 +111,7 @@
       <ConformanceMode>false</ConformanceMode>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <AdditionalIncludeDirectories>..\vendor\fltk\build;..\vendor\fltk\fltk-1.3.5;..\vendor\fltk\fltk-1.3.5\zlib;..\vendor\fltk\fltk-1.3.5\jpeg;..\vendor\fltk\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor\fltk\build\include;..\vendor\freeglut\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_MBCS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ForcedIncludeFiles>Windows.h</ForcedIncludeFiles>
     </ClCompile>
@@ -136,7 +136,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <PreprocessorDefinitions>_MBCS;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor\fltk\build;..\vendor\fltk\fltk-1.3.5;..\vendor\fltk\fltk-1.3.5\zlib;..\vendor\fltk\fltk-1.3.5\jpeg;..\vendor\fltk\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor\fltk\build\include;..\vendor\freeglut\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Windows.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
@@ -162,7 +162,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <PreprocessorDefinitions>_MBCS;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\vendor\fltk\build;..\vendor\fltk\fltk-1.3.5;..\vendor\fltk\fltk-1.3.5\zlib;..\vendor\fltk\fltk-1.3.5\jpeg;..\vendor\fltk\fltk-1.3.5\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\vendor\fltk\build\include;..\vendor\freeglut\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>Windows.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
